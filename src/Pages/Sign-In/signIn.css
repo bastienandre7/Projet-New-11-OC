@@ -1,0 +1,58 @@
+.bg-dark {
+    background-color: #12002b;
+}
+
+.main {
+    flex: 1;
+    padding-top: 30px;
+}
+
+.sign-in-button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    border-color: #00bc77;
+    background-color: #00bc77;
+    color: #fff;
+}
+
+.sign-in-content {
+    box-sizing: border-box;
+    background-color: white;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in-icon {
+    font-size: 5rem;
+}
+
+.classe_erreur{
+    color: white;
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 20%;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.input-remember {
+    display: flex;
+}
+
+.input-remember label {
+    margin-left: 0.25rem;
+}
